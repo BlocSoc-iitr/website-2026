@@ -8,6 +8,7 @@ import Achievements from "./pages/Achievements";
 import Team from "./pages/Team";
 import Writing from "./pages/Writing";
 import Projects from "./pages/Projects";
+import ProjectDetail from "./pages/ProjectDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +22,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:slug" element={<ProjectDetail />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/team" element={<Team />} />
           <Route path="/writing" element={<Writing />} />
