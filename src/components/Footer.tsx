@@ -2,10 +2,10 @@ import { Github, Twitter, Linkedin, Instagram, Mail } from 'lucide-react';
 
 const socials = [
   { icon: Mail, href: 'mailto:blocsoc.acm@iitr.ac.in', label: 'Email' },
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
+  { icon: Github, href: 'https://github.com/BlocSoc-IITR', label: 'GitHub' },
+  { icon: Twitter, href: 'https://x.com/BlocSocIITR', label: 'Twitter' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/company/blockchain-society-iit-roorkee/', label: 'LinkedIn' },
+  { icon: Instagram, href: 'https://www.instagram.com/blocsociitr/', label: 'Instagram' },
 ];
 
 const Footer = () => {
