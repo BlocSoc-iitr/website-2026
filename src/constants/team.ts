@@ -10,7 +10,7 @@ export interface Member {
 
 export const team: Member[] = [
   { name: 'Mihir Chandwani', role: 'President', detail: 'SDE at Avon', image: '/team_images/mihir.jpg', github: 'https://github.com/Mihir1101/', twitter: 'https://x.com/mihir_1101/', linkedin: 'https://www.linkedin.com/in/mihir-chandwani-a52876257/' },
-  { name: 'Vasu Khanna', role: 'Vice President', detail: 'SDE at Anthias', image: '/team_images/vasu.jpg', github: 'https://github.com/star-gazer111/', twitter: 'https://x.com/_stargazer12/', linkedin: 'https://www.linkedin.com/in/vasu-k-4411a3252/' },
+  { name: 'Vasu Khanna', role: 'Vice President', detail: 'Engineering Lead at Anthias', image: '/team_images/vasu.jpg', github: 'https://github.com/star-gazer111/', twitter: 'https://x.com/_stargazer12/', linkedin: 'https://www.linkedin.com/in/vasu-k-4411a3252/' },
   { name: 'Nilav Prajapati', role: 'Vice President', detail: 'Upcoming Dev at Oracle', image: '/team_images/nilav.jpg', github: 'https://github.com/gerceboss/', twitter: 'https://twitter.com/gerceboss_21/', linkedin: 'https://www.linkedin.com/in/nilav-prajapati-386a99251/' },
   { name: 'Shourya Goel', role: 'Head of Research', detail: 'Research Intern at University of Illinois Urbana-Champaign', image: '/team_images/shourya_g.jpeg', github: 'https://github.com/Sh0g0-1758/', twitter: 'https://x.com/ShogLoFi/', linkedin: 'https://www.linkedin.com/in/shourya-goel-03b18724b/' },
   { name: 'Preeti Karnwal', role: 'Head of Security', detail: 'Previous Intern at Adobe', image: '/team_images/preeti.jpeg', github: 'https://github.com/blueh4mster/', twitter: 'https://x.com/cherryboss0604/', linkedin: 'https://www.linkedin.com/in/preeti-karnwal-715772261/' },
